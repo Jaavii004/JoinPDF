@@ -1,0 +1,3 @@
+@echo off
+echo Iniciando proceso de construccion del instalador...
+powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0Construir_Instalador.ps1"
