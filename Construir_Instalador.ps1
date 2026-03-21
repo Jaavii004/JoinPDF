@@ -5,7 +5,7 @@ Write-Host "   Generador de Instalador: JoinPDF" -ForegroundColor Yellow
 Write-Host "==============================================" -ForegroundColor Yellow
 
 Write-Host "`nPaso 1/4: Instalando dependencias de Python..." -ForegroundColor Cyan
-pip install pypdf pyinstaller
+pip install -r requirements.txt
 
 Write-Host "`nPaso 2/4: Compilando script Python a .exe..." -ForegroundColor Cyan
 pyinstaller --noconfirm --noconsole --onefile unir_seleccion.PY
